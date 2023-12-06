@@ -46,7 +46,7 @@ public class PhysicalProduct extends Product {
 
 	@Override
 	public String toString() {
-		return "PhysicalProduct [descricao=" + super.getDescricao() + ", preco=" + super.getPreco() + ", height=" + height + ", width=" + width + ", length=" + length + "]";
+		return "PhysicalProduct [description=" + super.getDescricao() + ", price=" + super.getPreco() + ", height=" + height + ", width=" + width + ", length=" + length + "]";
 	}
 
 }

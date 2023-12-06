@@ -4,29 +4,29 @@ import java.math.BigDecimal;
 
 public class Product {
 
-	private String descricao;
+	private String description;
 	
-	private BigDecimal preco;
+	private BigDecimal price;
 
 	public String getDescricao() {
-		return descricao;
+		return description;
 	}
 
 	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+		this.description = descricao;
 	}
 
 	public BigDecimal getPreco() {
-		return preco;
+		return price;
 	}
 
 	public void setPreco(BigDecimal preco) {
-		this.preco = preco;
+		this.price = preco;
 	}
 
 	@Override
 	public String toString() {
-		return "Product [descricao=" + descricao + ", preco=" + preco + "]";
+		return "Product [description=" + description + ", price=" + price + "]";
 	}
 		
 }

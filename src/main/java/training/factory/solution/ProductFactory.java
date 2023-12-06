@@ -19,7 +19,7 @@ public class ProductFactory {
 			return digitalProduct;
 			
 		default:
-			throw new IllegalArgumentException("Tipo de produto não disponível.");
+			throw new IllegalArgumentException("Product type is not available.");
 			
 		}			
 
